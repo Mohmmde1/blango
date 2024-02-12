@@ -1,0 +1,254 @@
+[
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2024-01-31T16:27:21.767Z",
+      "modified_at": "2024-01-31T16:27:21.821Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "creator": 1,
+      "content": "Well Said",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T13:59:13.254Z",
+      "modified_at": "2024-02-04T13:59:13.254Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+      "creator": 1,
+      "content": "Wow Such a wise Man",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T13:59:45.125Z",
+      "modified_at": "2024-02-04T13:59:45.126Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+      "creator": 1,
+      "content": "I wish if I were You",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T13:59:54.559Z",
+      "modified_at": "2024-02-04T13:59:54.559Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+      "creator": 1,
+      "content": "Fuck You",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T14:00:16.805Z",
+      "modified_at": "2024-02-04T14:00:16.805Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+      "creator": 1,
+      "content": "What a terrible saying",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T14:00:25.992Z",
+      "modified_at": "2024-02-04T14:00:25.992Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+      "creator": 1,
+      "content": "Play somewhere else",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T14:00:37.876Z",
+      "modified_at": "2024-02-04T14:00:37.876Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+      "creator": 1,
+      "content": "Come on Guys easy on the man",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-04T14:00:52.432Z",
+      "modified_at": "2024-02-04T14:00:52.433Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 10,
+    "fields": {
+      "creator": 1,
+      "content": "where is your content man?",
+      "content_type": 8,
+      "object_id": 1,
+      "created_at": "2024-02-04T14:11:46.344Z",
+      "modified_at": "2024-02-04T14:11:46.344Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 11,
+    "fields": {
+      "creator": 1,
+      "content": "this is a. mistake",
+      "content_type": 8,
+      "object_id": 1,
+      "created_at": "2024-02-07T05:26:43.636Z",
+      "modified_at": "2024-02-07T05:26:43.636Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 12,
+    "fields": {
+      "creator": 1,
+      "content": "Such a wise man should lead the whole world",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-07T05:27:11.826Z",
+      "modified_at": "2024-02-07T05:27:11.826Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 13,
+    "fields": {
+      "creator": 1,
+      "content": "WTF",
+      "content_type": 8,
+      "object_id": 1,
+      "created_at": "2024-02-07T05:28:55.611Z",
+      "modified_at": "2024-02-07T05:28:55.611Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 14,
+    "fields": {
+      "creator": 1,
+      "content": "Thank you for reading my post!",
+      "content_type": 8,
+      "object_id": 1,
+      "created_at": "2024-02-11T19:00:08.459Z",
+      "modified_at": "2024-02-11T19:00:08.459Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 15,
+    "fields": {
+      "creator": 1,
+      "content": "Thank you for reading my post!",
+      "content_type": 8,
+      "object_id": 2,
+      "created_at": "2024-02-11T19:00:08.459Z",
+      "modified_at": "2024-02-11T19:00:08.459Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "Politic"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "phoylosicy"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-01-21T14:25:19.516Z",
+      "modified_at": "2024-01-21T14:25:19.516Z",
+      "published_at": "2024-01-21T14:24:41Z",
+      "title": "New Post",
+      "slug": "new-post",
+      "summary": "Summary",
+      "content": "Content",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-02-03T07:25:25.319Z",
+      "modified_at": "2024-02-03T07:25:25.319Z",
+      "published_at": "2024-02-03T07:23:17Z",
+      "title": "Mohammed: Peronsal Profile",
+      "slug": "mohammed-peronsal-profile",
+      "summary": "Living in uncertain world is exciting, risky, depressed, and hope all at the same time.",
+      "content": "Living in uncertain world is exciting, risky, depressed, and hope all at the same time.",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$JzCTCD5vLD8kD8aHoIJ26z$ts6910XhFSkr0yBZU7jToxJ+QJmERhvmwYvBWk9veuI=",
+      "last_login": "2024-02-10T17:14:48.054Z",
+      "is_superuser": true,
+      "username": "mohammed",
+      "first_name": "",
+      "last_name": "",
+      "email": "mohammed@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-01-20T06:16:36.151Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$aRLfQZCD9v6jQbJBtPpqmJ$DefluEbvzNuWpDhPwXgpxNzFmTcU4WNIKaRUD2VjC3k=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Mohammed.m",
+      "first_name": "",
+      "last_name": "",
+      "email": "alnashriymohammed@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-02-08T14:51:10Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
