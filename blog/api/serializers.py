@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from blog.models import Post, Tag, Comment
 from blango_auth.models import User
+from versatileimagefield.serializers import VersatileImageFieldSerializer
 
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
@@ -29,6 +30,13 @@ class CommentSerializer(serializers.ModelSerializer):
         readonly = ["modified_at", "created_at"]
 
 class PostSerializer(serializers.ModelSerializer):
+    hero_image = VersatileImageFieldSerializer(
+        sizes=[
+            ("full_size", "url"),
+            ("thumbnail", "thumbnail__100x100"),
+        ],
+        read_only=True,
+    )
     tags = TagField(
       slug_field="value", many=True, queryset=Tag.objects.all()
     )
@@ -39,11 +47,19 @@ class PostSerializer(serializers.ModelSerializer):
     
     class Meta:
       model = Post
-      fields = "__all__"
+      exclude = ["ppoi"]
       readonly = ["modified_at", "created_at"]
 
 class PostDetailSerializer(PostSerializer):
     comments = CommentSerializer(many=True)
+    hero_image = VersatileImageFieldSerializer(
+        sizes=[
+            ("full_size", "url"),
+            ("thumbnail", "thumbnail__100x100"),
+            ("square_crop", "crop__200x200"),
+        ],
+        read_only=True,
+    )
 
     def update(self, instance, validated_data):
         comments = validated_data.pop("comments")

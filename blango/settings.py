@@ -59,7 +59,8 @@ class Dev(Configuration):
         "rest_framework",
         "rest_framework.authtoken",
         "drf_yasg",
-        "django_filters"
+        "django_filters",
+        "versatileimagefield"
     ]
 
     MIDDLEWARE = [
@@ -226,6 +227,8 @@ class Dev(Configuration):
     ACCOUNT_EMAIL_REQUIRED = True
     ACCOUNT_USERNAME_REQUIRED = False
     ACCOUNT_AUTHENTICATION_METHOD = "email"
+    MEDIA_ROOT = BASE_DIR / "media"
+    MEDIA_URL = "/media/"
     
 
 
