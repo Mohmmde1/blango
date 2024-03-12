@@ -1,8 +1,37 @@
-console.time('myTimer')
-console.count('counter1')
-console.log('A normal log message')
-console.warn('Warning: something bad might happen')
-console.error('Something bad did happen!')
-console.count('counter1')
-console.log('All the things above took this long to happen:')
-console.timeEnd('myTimer')
+class ClickButton extends React.Component {
+  state = {
+    wasClicked: false
+  }
+
+  handleClick () {
+    this.setState(
+      {wasClicked: true}
+    )
+  }
+
+  render () {
+    let buttonText
+
+    if (this.state.wasClicked)
+      buttonText = 'Clicked!'
+    else
+      buttonText = 'Click Me'
+
+    return React.createElement(
+      'button',
+      {
+        className: 'btn btn-primary mt-2',
+        onClick: () => {
+          this.handleClick()
+        }
+      },
+      buttonText
+    )
+  }
+}
+
+const domContainer = document.getElementById('react_root')
+ReactDOM.render(
+  React.createElement(ClickButton),
+  domContainer
+)
